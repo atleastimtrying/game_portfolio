@@ -1,0 +1,121 @@
+body{
+  margin-bottom:64px;
+  font-family: 'Lato', sans-serif;
+}
+.top-buffer { margin-top:20px; }
+
+
+ul.contact{
+  padding:0;
+}
+
+ul.contact li{
+  list-style:none;
+}
+
+ul.contact li a{
+  font-size:4em;
+  background:#efefef;
+  padding:0.25em;
+  display:block;
+  color:#ccc;
+  text-decoration: none;
+}
+
+ul.contact li:nth-child(even){
+  text-align: right;
+}
+ul.contact li:nth-child(even) a{
+  background:#fefefe;
+}
+ul.contact li a:hover{
+  color:#3D425F;
+  background:#ccc;
+}
+
+ul.principles{
+  font-size:4em;
+}
+
+.smb{
+  background:#9a261e;
+}
+.smb .jumbotron{
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+.smb h2{
+  color:white;
+  text-shadow:
+    3px 3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.smb blockquote{
+  border-left:0;
+  font-size:1.2em;
+  font-style:italic;
+  font-family: serif;
+  color:black;
+  margin-bottom:0;
+}
+.smb .jumbotron p{
+  color:white;
+  text-align: left;
+  font-size: inherit;
+}
+.smb p{
+  color:black;
+  text-align: right;
+  font-size:2em;
+}
+.limbo{
+  background:black;
+}
+.limbo .jumbotron{
+  color:white;
+  background:#333;
+}
+.limbo .jumbotron p{
+  font-size:inherit;
+}
+.limbo h2{
+  color:#ccc;
+}
+.limbo blockquote{
+  background: #ddd;
+  margin-bottom:0;
+}
+.limbo p{
+  color:white;
+  font-size:2em;
+  margin-bottom:2em;
+}
+.papers{
+  background:black;
+  color:#566955;
+  font-family:monospace;
+}
+.papers h1,
+.papers h2{
+  color:white;
+  text-transform: uppercase;
+  font-weight:bolder;
+  text-shadow: 2px 5px #566955;
+}
+.papers blockquote{
+  background:white;
+}
+footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  padding:8px;
+  font-size:16px;
+  text-align: right;
+  width:100%;
+  background:#333;
+  color:white;
+}
